@@ -4,8 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="shortcut icon" href="../Diseno/assets/images/logo-122x92.png" type="image/x-icon">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Login</title>
     <link rel="stylesheet" href="../Diseno/assets/web/assets/mobirise-icons2/mobirise2.css">
     <link rel="stylesheet" href="../Diseno/assets/web/assets/mobirise-icons/mobirise-icons.css">
     <link rel="stylesheet" href="../Diseno/assets/bootstrap/css/bootstrap.min.css">
@@ -51,7 +52,6 @@
         </div>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav nav-dropdown" data-app-modern-menu="true"><li class="nav-item">
-                    <a class="nav-link link text-white display-4" href="../Presentacion/index.html"><span class="mobi-mbri mobi-mbri-user-2 mbr-iconfont mbr-iconfont-btn"></span>Login</a>
                 </li></ul>
 
         </div>
@@ -66,10 +66,10 @@
         <p class="h4 mb-4">Inicia sesión</p>
 
     <!-- Email -->
-            <input type="email" name="Email" class="form-control mb-4" placeholder="E-mail">
+            <input type="email" name="Email" class="form-control mb-4" placeholder="E-mail" required="required">
 
     <!-- Password -->
-             <input type="password" name="Pass" class="form-control mb-4" placeholder="Contraseña">
+             <input type="password" name="Pass" class="form-control mb-4" placeholder="Contraseña" required="required">
                 <!-- Sign in button -->
             <?php 
                     $operar = new Clientes();
