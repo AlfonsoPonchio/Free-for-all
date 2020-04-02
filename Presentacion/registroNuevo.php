@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="shortcut icon" href="../Diseno/assets/images/logo-122x92.png" type="image/x-icon">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
       <link rel="stylesheet" href="../Diseno/assets/web/assets/mobirise-icons2/mobirise2.css">
       <link rel="stylesheet" href="../Diseno/assets/web/assets/mobirise-icons/mobirise-icons.css">
@@ -15,7 +16,7 @@
       <link rel="stylesheet" href="../Diseno/assets/socicon/css/styles.css">
       <link rel="stylesheet" href="../Diseno/assets/theme/css/style.css">
       <link rel="preload" as="style" href="../Diseno/assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href=" ../Diseno/assets/mobirise/css/mbr-additional.css" type="text/css">
-    <title>Document</title>
+    <title>Registro</title>
         <?php 
         require_once "../Negocio/NegocioClientes.php";
         require_once "../Conexiones/insertar.php";
@@ -23,7 +24,7 @@
 </head>
 
 <body>
-        <section class="menu cid-qTkzRZLJNu" once="menu" id="menu1-0">
+        <section class="menu cid-qTkzRZLJNu" id="menu1-0">
 
     
 
