@@ -15,8 +15,9 @@ class Clientes
                 $Email=$_POST["Email"];
                 $Celular=$_POST["Celular"];
                 $Pass=$_POST["Pass"];
+                $Tipo=$_POST["Tipo"];
                    
-                $respuesta=OpercaionesBasicas::Registro($Nombre,$Direccion,$Ciudad,$Estado,$CP,$Telefono,$Email,$Celular,$Pass);
+                $respuesta=OpercaionesBasicas::Registro($Nombre,$Direccion,$Ciudad,$Estado,$CP,$Telefono,$Email,$Celular,$Pass,$Tipo);
                 if ($respuesta) {
                     echo '<strong>'.$respuesta.'</strong>';
                 }

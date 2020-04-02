@@ -8,8 +8,7 @@ $usuario = "root";
         
         
         //$SQL="select catalogoproducto.nombre, categoria.categoria, catalogoproducto.cantidadExistente from catalogoproducto,categoria where catalogoproducto.idCategoria=categoria.idCategoria group by catalogoproducto.nombre";
-        $SQL="select catalogoproducto.nombre, categoria.categoria, sum(catalogoproducto.cantidadExistente) as 'cantidadExistente' from catalogoproducto,categoria where catalogoproducto.idCategoria=categoria.idCategoria group by catalogoproducto.nombre";   
+        $SQL="select catalogoproducto.nombre,publicarproducto.Descripcion,publicarproducto.CantidadDonada, usuarios.NombreEmpresa, publicarproducto.medida,publicarproducto.Disponibilidad from catalogoproducto,publicarproducto,usuarios where catalogoproducto.idCategoria=catalogoproducto.idCategoria and publicarproducto.CorreoDonante=usuarios.Email";   
         $Result=mysqli_query ($Conexion,$SQL);
         
-        ////$array =mysqli_fetch_array($Result);
 ?>
