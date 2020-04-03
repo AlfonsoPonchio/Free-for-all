@@ -1,4 +1,4 @@
-   <?php require '../Conexiones/Frutas.php' ?>
+   <?php require '../Conexiones/Enlatados.php' ?>
 <!DOCTYPE html>
 <html lang="en">
   <head>

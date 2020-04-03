@@ -138,9 +138,9 @@
 </div>
 
                 <!--Zona JQuery-->
-    <script src="../Diseno/js/jquery.min.js"></script>
+    <script src="../Diseno/assets/bootstrap/js/jquery.min.js"></script>
     <!--Zona Boostrap-->
-    <script src="../Diseno/js/bootstrap.min.js"></script>
+    <script src="../Diseno/assets/bootstrap/js/bootstrap.min.js"></script>
 </body>
 
 </html>

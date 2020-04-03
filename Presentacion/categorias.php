@@ -66,9 +66,9 @@
     padding-top: 5px;
    
  	}
+
  </style>
   <title>Categorias</title>
-  
 </head>
 <body>
   <section class="menu cid-qTkzRZLJNu"  id="menu1-0">
@@ -113,52 +113,66 @@
   
   
   <div class="row">
-   <a href="../Presentacion/categoriasFrutas.php">
+   
   	<div class="col-lg-3 col-md-6 col-xs-12 pl-1 pr-1">
+    <a href="../Presentacion/categoriasfrutas.php">
   		<div class="card" >
      <i class="fa fad fa-apple-alt"></i>
   		<h3>Frutas</h3>  
-  		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  		<p >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
   		tempor incididunt ut labore et dolore magna aliqua.</p>
   	</div>
-  	
- </a>
+    </a>
    </div>
+
+
   	  	<div class="col-lg-3 col-md-6 col-xs-12 pl-1 pr-1">
-  		<div class="card">
+  	<a href="../Presentacion/categoriasVerduras.php">
+   	<div class="card">
   		<i class="fa fas fa-carrot"></i>
   		<h3>Verduras</h3>
   		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
   		tempor incididunt ut labore et dolore magna aliqua.</p>
+  
   	</div>
-  	</div>
+    </a>
+      </div>
+      
       
   	<div class="col-lg-3 col-md-6 col-xs-12 pl-1 pr-1">
-  		<div class="card">
+  	<a href="../Presentacion/categoriasEnlatados.php">
+    <div class="card">
   		<i class="fa fas fa-archive"></i>
   		<h3>Enlatados</h3>
   		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
   		tempor incididunt ut labore et dolore magna aliqua.</p>
   	</div>
-  	</div>
+   </a>
+   </div>
+   
    
   	<div class="col-lg-3 col-md-6 col-xs-12 pl-1 pr-1">
+    <a href="../Presentacion/categoriasRopa.php">
   		<div class="card">
   		<i class="fa fas fa-tshirt"></i>
   		<h3>Ropa</h3>
   		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
   		tempor incididunt ut labore et dolore magna aliqua.</p>
   	</div>
+    </a>
   	</div>
+   
+   
     <div class="col-lg-3 col-md-6 col-xs-12 pl-1 pr-1">
+     <a href="../Presentacion/categoriasMiscelanea.php">
   		<div class="card">
   		<i class="fa fas fa-plus"></i>
   		<h3>Miscelanea</h3>
   		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
   		tempor incididunt ut labore et dolore magna aliqua.</p>
   	</div>
+     </a>
   	</div>
-
   </div>         
 </div>
   

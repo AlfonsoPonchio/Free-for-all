@@ -1,4 +1,4 @@
-   <?php require '../Conexiones/Frutas.php' ?>
+   <?php require '../Conexiones/Ropa.php' ?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
