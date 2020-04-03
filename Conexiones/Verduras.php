@@ -1,5 +1,6 @@
 <?php
-$usuario = "root";
+
+    $usuario = "root";
     $contrasena = "";  // en mi caso tengo contraseña pero en casa caso introducidla aquí.
     $servidor = 'localhost' ;
     $database = "pruebas";
@@ -8,8 +9,7 @@ $usuario = "root";
         
         
         //$SQL="select catalogoproducto.nombre, categoria.categoria, catalogoproducto.cantidadExistente from catalogoproducto,categoria where catalogoproducto.idCategoria=categoria.idCategoria group by catalogoproducto.nombre";
-        $SQL="select catalogoproducto.nombre, categoria.categoria, sum(catalogoproducto.cantidadExistente) as 'cantidadExistente' from catalogoproducto,categoria where catalogoproducto.idCategoria=categoria.idCategoria group by catalogoproducto.nombre";   
+        $SQL="select catalogoproducto.nombre,publicarproducto.Descripcion,publicarproducto.CantidadDonada, usuarios.NombreEmpresa, publicarproducto.medida,publicarproducto.Disponibilidad from catalogoproducto,publicarproducto,usuarios,categoria where publicarproducto.CorreoDonante=usuarios.Email and catalogoproducto.idCategoria=categoria.idCategoria and catalogoproducto.IdProducto=publicarproducto.idProducto and categoria.categoria='Verduras'";   
         $Result=mysqli_query ($Conexion,$SQL);
-        
-        ////$array =mysqli_fetch_array($Result);
+        mysqli_close($Conexion);
 ?>

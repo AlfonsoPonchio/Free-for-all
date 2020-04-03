@@ -15,7 +15,8 @@
       <link rel="stylesheet" href="../Diseno/assets/dropdown/css/style.css">
       <link rel="stylesheet" href="../Diseno/assets/socicon/css/styles.css">
       <link rel="stylesheet" href="../Diseno/assets/theme/css/style.css">
-      <link rel="preload" as="style" href="../Diseno/assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href=" ../Diseno/assets/mobirise/css/mbr-additional.css" type="text/css">
+      <link rel="preload" as="style" href="../Diseno/assets/mobirise/css/mbr-additional.css" type="text/css">
+      <link rel="stylesheet" as="style" href="../Diseno/assets/mobirise/css/mbr-additional.css" type="text/css">
     <title>Registro</title>
         <?php 
         require_once "../Negocio/NegocioClientes.php";
@@ -67,7 +68,7 @@
     <form method="POST">
     <div class="form-group">
       <label class="col-md-4 control-label" for="Nombre">Nombre de empresa</label>  
-      <div class="col-md-5">
+      <div class="col-md-4">
       <input id="Nombre" name="Nombre" type="text" placeholder="Nombre" class="form-control input-md" required="">
         
       </div>
@@ -76,7 +77,7 @@
     <!-- Text input-->
     <div class="form-group">
       <label class="col-md-4 control-label" for="Direccion">Direccion</label>  
-      <div class="col-md-8">
+      <div class="col-md-4">
       <input id="Direccion" name="Direccion" type="text" placeholder="Direccion" class="form-control input-md">
       </div>
     </div>
@@ -84,7 +85,7 @@
     <!-- Text input-->
     <div class="form-group">
       <label class="col-md-4 control-label" for="Empresa">Ciudad</label>  
-      <div class="col-md-5">
+      <div class="col-md-2">
       <input id="Ciudad" name="Ciudad" type="text" placeholder="Ciudad" class="form-control input-md" required="">
         
       </div>
@@ -92,7 +93,7 @@
     <!-- Select Basic -->
     <div class="form-group">
       <label class="col-md-4 control-label" for="Estado">Estado</label>
-      <div class="col-md-4">
+      <div class="col-md-2">
         <select id="Estado" name="Estado" class="form-control">
     <option value="Aguascalientes">Aguascalientes</option>
     <option value="Baja California">Baja California</option>
@@ -132,7 +133,7 @@
     <!-- Text input-->
     <div class="form-group">
       <label class="col-md-4 control-label" for="CP">Código Postal</label>  
-      <div class="col-md-5">
+      <div class="col-md-1">
       <input id="CP" name="CP" type="text" placeholder="Código Postal" class="form-control input-md">
         
       </div>
@@ -141,7 +142,7 @@
     <!-- Text input-->
     <div class="form-group">
       <label class="col-md-4 control-label" for="Telefono">Telefono</label>  
-      <div class="col-md-4">
+      <div class="col-md-2">
       <input id="Telefono" name="Telefono" type="text" placeholder="Telefono" class="form-control input-md" required="">
         
       </div>
@@ -149,7 +150,7 @@
     
     <!-- Text input-->
     <div class="form-group">
-      <label class="col-md-4 control-label" for="Email">Email</label>  
+      <label class="col-md-4 " for="Email">Email</label>  
       <div class="col-md-4">
       <input id="Email" name="Email" type="text" placeholder="Email" class="form-control input-md" required="">
         
@@ -158,8 +159,8 @@
     
     <!-- Text input-->
     <div class="form-group">
-      <label class="col-md-4 control-label" for="Celular">Celular</label>  
-      <div class="col-md-4">
+      <label class="col-md-4" for="Celular">Celular</label>  
+      <div class="col-md-2">
       <input id="Celular" name="Celular" type="text" placeholder="Celular" class="form-control input-md">
         
       </div>
@@ -168,16 +169,25 @@
     
     <!-- Text input-->
        <div class="form-group">
-       <label class="col-md-4 control-label" for="Pass">Contraseña</label>  
-       <div class="col-md-4">
+       <label class="col-md-4 " for="Pass">Contraseña</label>  
+       <div class="col-md-2">
        <input id="Pass" name="Pass" type="text" placeholder="Contraseña" class="form-control input-md" required="">
         
        </div>
        </div>
+       <div class="form-group">
+        <label class="col-md-4 " for="Tipo">Tipo de cuenta</label>
+            <div class="col-md-2">
+             <select id="Tipo" name="Tipo" class="form-control">
+                 <option value="Beneficiario">Beneficiario</option>
+                 <option value="Donante">Donante</option>
+             </select>
+            </div>
+       </div>
     
       <!-- Button -->
       <div class="form-group">
-      <label class="col-md-4 control-label" for="Registrarse"></label>
+      <label class="col-md-4 " for="Registrarse"></label>
         <div class="col-md-4">
         <?php 
                     $operar = new Clientes();
@@ -189,8 +199,8 @@
     
     </form>
             <!--Zona JQuery-->
-    <script src="../Diseno/js/jquery.min.js"></script>
+    <script src="../Diseno/assets/bootstrap/js/jquery.min.js"></script>
     <!--Zona Boostrap-->
-    <script src="../Diseno/js/bootstrap.min.js"></script>
+    <script src="../Diseno/assets/bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>

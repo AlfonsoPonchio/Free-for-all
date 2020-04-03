@@ -1,0 +1,1 @@
+alert('Se a registrado correctamente, porfavor presione el boton Iniciar sesion que se encuentra a lado del boton registrar :D');

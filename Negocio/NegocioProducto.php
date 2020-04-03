@@ -8,11 +8,10 @@ class Funcion
             
 if (isset($_POST["nomPro"])) {
                 
-                $Cantidad=$_POST["cant"];
                 $Categoria=$_POST["Categoria"];
                 $Nombre=$_POST["nomPro"];
                 
-                $respuesta=OpercaionesBasicas::Insert($Categoria,$Nombre,$Cantidad);
+                $respuesta=OpercaionesBasicas::Insert($Categoria,$Nombre);
                 if ($respuesta) {
                     echo '<strong>'.$respuesta.'</strong>';
                 }
