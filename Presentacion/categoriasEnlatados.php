@@ -1,4 +1,4 @@
-   <?php require '../Conexiones/Enlatados.php' ?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -11,7 +11,7 @@
   <meta name="description" content="">
   
   
-  <title>Home</title>
+  <title>Categoria Enlatados</title>
   <link rel="stylesheet" href="../Diseno/assets/web/assets/mobirise-icons2/mobirise2.css">
   <link rel="stylesheet" href="../Diseno/assets/web/assets/mobirise-icons/mobirise-icons.css">
   <link rel="stylesheet" href="../Diseno/assets/bootstrap/css/bootstrap.min.css">
@@ -66,32 +66,14 @@
     <br>
     <br>
     <br>
+        <label for="Caja_Busqueda">Busqueda de Producto</label>
+    <input type="text" name="Caja_Busqueda" id="Caja_Busqueda">
     <br>    
     <section>
-        <table class="table table-bordered">
-            <thead>
-              <tr>
-                <th scope="col">Nombre</th>
-                <th scope="col">Descripción</th>
-                <th scope="col">Cantidad</th>
-                <th scope="col">Nombre de organización</th>
-                <th scope="col">Medida</th>
-                <th scope="col">Disponible/NO</th>
-              </tr>
-            </thead>
-            <tbody>
-              <?php
-        foreach ($Result as $row ){
-        ?>
-        <tr>
-            <td><?php echo $row['nombre']; ?></td>
-            <td><?php echo $row['Descripcion']; ?></td>
-            <td><?php echo $row['CantidadDonada']; ?></td>
-            <td><?php echo $row ['NombreEmpresa']?></td>
-            <td><?php echo $row ['medida']?></td>
-            <td><?php echo $row ['Disponibilidad']?></td>
-        </tr>
-        <?php }?>
-            </tbody>
-          </table>
+      <div id="Datos">
+      </div>
     </section>
+        <script src="../Diseno/assets/bootstrap/js/jquery.min.js"></script>
+    <script src="../Presentacion/BusquedaEnlatados.js"></script>
+        </body>
+</html>

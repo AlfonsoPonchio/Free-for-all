@@ -27,8 +27,9 @@ $usuario = "root";
     }else{$consulta = "insert into catalogoproducto (nombre,idCategoria,cantidadExistente) values ('".$Nombre."',".$Idp.",".(0).")";
     $resultado = mysqli_query( $Conexion , $consulta );
  mysqli_close($Conexion);
+
     echo "<script type='text/javascript'>";
-    echo "window.history.back(-1)";
+    echo "window.history.back(-2)";
     echo "</script>";
 
 echo "<script src='../Diseno/assets/bootstrap/js/AlertassCorrectas/Producto.js'></script>";}
